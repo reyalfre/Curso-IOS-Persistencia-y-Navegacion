@@ -11,7 +11,8 @@ import SwiftUI
 struct Curso_IOS_Persistencia_y_NavegacionApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            //PersistirDatosSimples()
+            PersistirJSON()
         }
     }
 }

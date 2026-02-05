@@ -17,7 +17,7 @@ enum ClaveStorage {
     static let ultimoLogin = "ultimo_login"
 }
 */
-struct ContentView: View {
+struct PersistirDatosSimples: View {
 
     @AppStorage("usuario") private var nombreUsuario: String = "Invitado"
     @AppStorage("musicaActivada") private var musicaActivada: Bool = false
@@ -72,5 +72,5 @@ struct ContentView: View {
 }
 
 #Preview {
-    ContentView()
+    PersistirDatosSimples()
 }
